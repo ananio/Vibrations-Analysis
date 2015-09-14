@@ -1,0 +1,10 @@
+>>> Warning 203 "C:\Program Files\PICC\Drivers\pic18_usb.c" Line 531(1,1): Condition always TRUE
+>>> Warning 216 "arc_usb_cdc.c" Line 78(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "arc_usb_cdc.c" Line 78(0,1): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_get_discard)
+>>> Warning 202 "arc_usb_cdc.c" Line 22(16,19): Variable never used:   an1
+>>> Warning 202 "arc_usb_cdc.c" Line 23(16,19): Variable never used:   an2
+>>> Warning 202 "arc_usb_cdc.c" Line 24(16,19): Variable never used:   an3
+>>> Warning 202 "arc_usb_cdc.c" Line 25(16,19): Variable never used:   an4
+>>> Warning 202 "arc_usb_cdc.c" Line 28(16,17): Variable never used:   j
+      Memory usage:   ROM=18%      RAM=41% - 43%
+      0 Errors,  8 Warnings.

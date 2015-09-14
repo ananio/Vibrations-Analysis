@@ -1,0 +1,108 @@
+  InputBox.resources - Embedded, ContainedInManifestFile, 
+  componentXtra.GetLicense.resources - Embedded, ContainedInManifestFile, 
+  componentXtra.XYGraph.bmp - Embedded, ContainedInManifestFile, 
+  componentXtra.XYGraph.resources - Embedded, ContainedInManifestFile, 
+Assembly XYGraph, Version=2.2.2873.12993, Culture=neutral, PublicKeyToken=a46567cceafacc48: 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class componentXtra.XYGraph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String XtraTitle 'get set' : 
+    System.String XtraLabelX 'get set' : 
+    System.String XtraLabelY 'get set' : 
+    Boolean XtraShowGrid 'get set' : 
+    Boolean XtraShowLegend 'get set' : 
+    Boolean XtraAutoScale 'get set' : 
+    Single XtraXmin 'get set' : 
+    Single XtraXmax 'get set' : 
+    Single XtraYmin 'get set' : 
+    Single XtraYmax 'get set' : 
+    Single XtraXstep 'get set' : 
+    Single XtraYstep 'get set' : 
+    Int32 XtraXdigits 'get set' : 
+    Int32 XtraYdigits 'get set' : 
+    Boolean XtraLogX 'get set' : 
+    Boolean XtraLogY 'get set' : 
+    Boolean XtraClassicLabels 'get set' : 
+    Int32 XtraMinLeftMargin 'get set' : 
+    Boolean XtraSelectPoint 'get set' : 
+    Boolean XtraUpdateCursor 'get set' : 
+    Boolean XtraFrame 'get set' : 
+  Methods:
+    get_XtraLogY(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraLogY(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraClassicLabels(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraClassicLabels(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraMinLeftMargin(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraMinLeftMargin(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraSelectPoint(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraSelectPoint(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraUpdateCursor(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraUpdateCursor(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraFrame(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraFrame(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    AddValue(Int32, Single, Single): PrivateScope, Public, HideBySig
+    AddGraph(String, DashStyle, Color, Int32, Boolean): PrivateScope, Public, HideBySig
+    ClearGraph(Int32): PrivateScope, Public, HideBySig
+    ClearGraphs(): PrivateScope, Public, HideBySig
+    RemoveGraph(Int32): PrivateScope, Public, HideBySig
+    RemoveGraphs(): PrivateScope, Public, HideBySig
+    SetGraphColor(Int32, Color): PrivateScope, Public, HideBySig
+    SetMinMax(Single, Single, Single, Single): PrivateScope, Public, HideBySig
+    GetMinMax(Single&, Single&, Single&, Single&): PrivateScope, Public, HideBySig
+    ZoomX(Single, Single): PrivateScope, Public, HideBySig
+    GetZoom(Single&, Single&, Single&, Single&): PrivateScope, Public, HideBySig
+    IsLite(): PrivateScope, Public, HideBySig
+    DrawAll(): PrivateScope, Public, HideBySig
+    AddVertLine(Single, String, DashStyle, Color, Int32): PrivateScope, Public, HideBySig
+    deleteVertLine(Int32): PrivateScope, Public, HideBySig
+    get_XtraTitle(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraTitle(String): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraLabelX(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraLabelX(String): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraLabelY(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraLabelY(String): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraShowGrid(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraShowGrid(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraShowLegend(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraShowLegend(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraAutoScale(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraAutoScale(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraXmin(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraXmin(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraXmax(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraXmax(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraYmin(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraYmin(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraYmax(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraYmax(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraXstep(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraXstep(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraYstep(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraYstep(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraXdigits(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraXdigits(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraYdigits(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraYdigits(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_XtraLogX(): PrivateScope, Public, HideBySig, SpecialName
+    set_XtraLogX(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class componentXtra.GetLicense: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox tbCode : Public
+    System.Windows.Forms.TextBox tbCompany : Public
+    System.Windows.Forms.TextBox tbUserName : Public
+Class InputBox: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+  Methods:
+    ShowInputBox(String, String): PrivateScope, Public, Static, HideBySig
